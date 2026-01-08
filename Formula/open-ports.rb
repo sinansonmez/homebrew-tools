@@ -1,25 +1,25 @@
 class OpenPorts < Formula
   desc "Terminal UI for listing open network ports"
   homepage "https://github.com/sinansonmez/open-ports"
-  version "1.0.0"
+  version "2.0.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sinansonmez/open-ports/releases/download/v1.0.0/open-ports_darwin_arm64.tar.gz"
-      sha256 "11acc9a3e1904e4639d3c808f68c3e6e30e64f7b6c0cb8e5ea8279d9c0c5af1f"
+      url "https://github.com/sinansonmez/open-ports/releases/download/v2.0.0/open-ports_darwin_arm64.tar.gz"
+      sha256 "20b91ea481c160da1b47c78246d61fe6384c7579d6306672074e785fa3ccd595"
     else
-      url "https://github.com/sinansonmez/open-ports/releases/download/v1.0.0/open-ports_darwin_amd64.tar.gz"
-      sha256 "125b2ebecf1013d6fedcd54f219eb84783ae5917ae89fecc3cc11b3fefac3076"
+      url "https://github.com/sinansonmez/open-ports/releases/download/v2.0.0/open-ports_darwin_amd64.tar.gz"
+      sha256 "807f85100c1109b339b5e2a2b002c87497d40cabd5bfe20d2b14f5d961707780"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sinansonmez/open-ports/releases/download/v1.0.0/open-ports_linux_arm64.tar.gz"
-      sha256 "5ce097ec5947ae97762bcdd57eb9dc69c2dbc4fef8e0e0ce01f7792b9ec1c866"
+      url "https://github.com/sinansonmez/open-ports/releases/download/v2.0.0/open-ports_linux_arm64.tar.gz"
+      sha256 "7558962f36a9d5b88bbc7c6d6fec3f8503864158c01aba2aff988d0594a476d0"
     else
-      url "https://github.com/sinansonmez/open-ports/releases/download/v1.0.0/open-ports_linux_amd64.tar.gz"
-      sha256 "f5906ebda238960cdfb30c2dfc88c6719a43e6d31582f597f366b69fe2520d67"
+      url "https://github.com/sinansonmez/open-ports/releases/download/v2.0.0/open-ports_linux_amd64.tar.gz"
+      sha256 "3ec4e351796d60fe0a08f58be1de21b2ef1d906dae830c66bbab8de95f2a787a"
     end
   end
 
